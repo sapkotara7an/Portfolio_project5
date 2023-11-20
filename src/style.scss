@@ -1,0 +1,349 @@
+*{box-sizing: border-box; margin: 0px; padding: 0px;}
+
+h1 h2 h3 h4 h5 h6{font-family: 'Poppins', sans-serif;}
+
+p{font-family: 'PT Sans', sans-serif; font-size: 18px; font-weight: 400 ;}
+
+span{color: #F69928}
+
+.text h1{font-size: 65px; font-weight: 700; line-height: 46px; }
+@media (max-width:780px){
+  .text h1 {font-size: 40px;}
+}
+
+.text2{font-size: 65px; font-weight: 700; line-height: 46px;color: yellow;}
+
+.title{animation-name:move; animation-duration: 0.75s;}
+
+.titleTwo{animation: move 0.7s linear ;}
+
+.flex{display: flex;}
+
+.navbar{background-color: black;   padding: 5px 0px; position: sticky; top: 0px; z-index: 99;}
+
+.active{
+  color: #84e43a;
+}
+
+.nav_items{  font-size: 18px; font-weight: 500; color: white;
+               line-height: 24px; padding: 20px; }
+
+              
+              
+ .px-btn { 
+    text-align: center;
+    max-width: 300px; padding: 10px 20px;
+        border: 1px solid  #37715d;
+        border-radius: 10px;
+        background-color: #37715d;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5;
+     }
+
+
+
+
+     a{text-decoration: none; color: white;}
+
+    .navbar a:hover{color: #37715d;}
+
+ .navbar Link{text-decoration: none;}
+
+     .header_button{padding-right: 35px;}
+     @media(max-width:781px)
+     {
+      .header_button{ display: none;}
+     }
+
+    .logo{padding: 25px; margin-right: 100px;}
+   
+  
+    .banner_text{color:white; text-align: left;    height: auto; padding: 50px; }
+   
+
+    .banner_text i{color: orange;}
+
+    .banner{background: black; height: auto; padding: 0px 40px; }
+
+    .images li{display: inline; list-style: none; margin-right: 10px; padding: 25px 10px;
+               background-color: white; border-radius: 10px;}
+             
+
+
+    .rating{margin-top: 120px; padding-bottom: 30px;}
+   
+
+
+   
+    
+    .banner2_text{border-bottom: 1px solid rgb(225, 222, 222); padding:20px;}
+
+    .banner2_text h6{color: #121519;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 15px;
+ text-transform: uppercase;}
+
+.service h3{color: #070707; font-size: 35px; font-weight: 700; 
+            text-transform: uppercase;}
+
+            .service{padding-left: 100px;}
+           .our_services{
+            justify-content: center; margin: auto;
+           }
+    
+
+    .learn{margin-left: 50px;}
+    
+    .learn i{font-size: 28px; color: #37715d; }
+
+    .learn i:hover{color: black; cursor: pointer;}
+
+    .web{padding: 0px 40px;}
+
+    .project{padding-right: 20px; text-align: center; margin: 25px;}
+
+    .services{padding: 20px; margin-left: 30px; text-align: left;}
+
+    .service_title{color: #37715d; font-size: 20px; }
+
+    .banner3{margin: 25px 0;}
+
+    .col_box{background-color: #FAEBC4;  max-width: 450px;
+         max-height: auto; padding-top: 20px; text-align: center; margin: auto;  border-radius: 15px; margin-bottom: 45px; padding: 40px;}
+
+         .col_box:hover{
+          color:#059c67;
+         }
+         .web h6:hover{color:#059c67;}
+
+        .recent_work{ justify-content: center; margin: auto;}
+    
+    .project_img{ border: 1px solid black; border-radius: 8px; max-width: 305px; overflow: hidden; margin: auto; justify-content: center;}
+
+    .project_img:hover img{transform: scale(1.1); transition: 0.5s;}
+
+    .banner4{padding-top: 60px;}
+ 
+    .ban4_content{background-color: #FFFFFF; padding: 20px; max-width: 450px; justify-content: center; margin: auto; border-radius: 10px; margin-bottom: 35px;}
+
+    .testimonials{justify-content: center; margin: auto;}
+
+    .contact{background-color: #F5F6F9; padding: 0px 15px; height: 500px;}
+    @media (max-width: 781px){
+      .contact{
+        height: auto;
+      
+      }
+    }
+    
+      .get_intouch_form input{border-radius: 10px;  margin: 10px 0;  border:1px solid rgb(165, 166, 167); width: 400px; padding: 8px ;}
+
+      textarea{border-radius: 10px;    border:1px solid rgb(165, 166, 167); padding: 10px; }
+
+     .get_intouch_form button{background-color: #37715d;
+         border-radius: 10px; width: 400px; padding: 8px; color: white; 
+         font-size: 18px; font-weight: 600; margin: 10px 0 10px 0; } 
+
+         .get_intouch_form button:hover{background-color: #059c67; color: white;}
+
+         .contact{border-radius: 10px 50px 10px 50px; border: 1px solid  rgb(234, 236, 238);
+                  padding: 50px 0; text-align: center; }
+
+         .get_intouch_form {border: 1px solid rgb(208, 206, 206); margin-left: 20px; padding:15px 85px;
+                             border-radius: 50px 10px 50px 10px;}
+
+         .contact_page{padding: 60px 0px; }
+        
+
+         .footer{ padding-top: 30px; padding-left: 100px;}
+
+         @media(max-width:781px){
+          .footer img{display: none;}
+         }
+
+         .footer_icon i:hover {background-color: #37715d;}
+
+         .icon{    align-items: center;
+            background: #37715d;
+            border-radius: 50%;
+            color: #fff;
+            display: inline-flex;
+            font-size: 30px;
+            height: 70px;
+            justify-content: center;
+            line-height: 1;
+            width: 70px;}
+
+            Nav.Link{display: inline; list-style: none;  padding: 5px 5px; 
+                border-radius: 20px; color: white; font-size: 24px;}
+
+                .footer_icon i{padding: 5px; 
+                    border-radius: 20px; color: white; font-size: 20px;
+                border: 1px solid rgb(213, 211, 211);
+                }
+
+                
+          
+         
+    
+                .wave {
+                    animation-name: wave-animation;  
+                    animation-duration: 2.5s;        
+                    animation-iteration-count: infinite;  
+                    transform-origin: 70% 70%;       
+                    display: inline-block;
+                  
+                  }
+                  
+                  @keyframes wave-animation {
+                      0% { transform: rotate( 0.0deg) }
+                     10% { transform: rotate(14.0deg) }  
+                     20% { transform: rotate(-8.0deg) }
+                     30% { transform: rotate(14.0deg) }
+                     40% { transform: rotate(-4.0deg) }
+                     50% { transform: rotate(10.0deg) }
+                     60% { transform: rotate( 0.0deg) }  
+                    100% { transform: rotate( 0.0deg) }
+                  }
+                  
+                  
+                  .wave {font-size: 28px;}
+                  
+                  .footer_text2{border-bottom: 1px solid rgb(187, 186, 186); margin-bottom: 10px;}
+
+                  .copyright{  border-top: 1px solid rgb(184, 181, 181);}
+
+                  .copyright i{ color: white; font-size: 20px;}
+
+                .copyright_text p{font-size: 14px;}
+
+               
+                  
+                  .timeline {
+                    position: relative;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                  }
+                  
+                  
+                  .timeline::after {
+                    content: '';
+                    position: absolute;
+                    width: 6px;
+                    background-color: white;
+                    top: 0;
+                    bottom: 0;
+                    left: 50%;
+                    margin-left: -3px;
+                  }
+                  
+                  
+                  .container1 {
+                    padding: 10px 50px;
+                    position: relative;
+                    background-color: inherit;
+                    width: 50%;
+                  }
+                  
+                  
+                  .container1::after {
+                  
+                    position: absolute;
+                    width: 25px;
+                    height: 25px;
+                    right: -17px;
+                    background-color:#E09921;
+                    border: 4px solid  black;
+                    top: 15px;
+                    border-radius: 50%;
+                   
+                  }
+                  
+                 
+                  .left {
+                    left: 0;
+                  }
+                  
+                  
+                  .right {
+                    left: 50%;
+                  }
+                  
+                  
+                  .left::before {
+                    content: " ";
+                    height: 0;
+                    position: absolute;
+                    top: 22px;
+                    width: 0;
+                    z-index: 1;
+                    right: 30px;
+                    border: medium solid white;
+                    border-width: 10px 0 10px 10px;
+                    border-color: transparent transparent transparent white;
+                  }
+                  
+                  
+                  .right::before {
+                    content: " ";
+                    height: 0;
+                    position: absolute;
+                    top: 22px;
+                    width: 0;
+                    z-index: 1;
+                    left: 30px;
+                    border: medium solid white;
+                    border-width: 10px 10px 10px 0;
+                    border-color: transparent white transparent transparent;
+                  }
+                  
+                  
+                  .right::after {
+                    left: -16px;
+                  }
+                  
+                  
+                  .content {
+                    padding: 20px 30px;
+                    background-color: white;
+                    position: relative;
+                    border-radius: 6px;
+                   }
+                  
+                  
+                  @media screen and (max-width: 600px) {
+                 
+                    .timeline::after {
+                      left: 31px;
+                    }
+                  
+                 
+                    .container1 {
+                      width: 100%;
+                      padding-left: 70px;
+                      padding-right: 25px;
+                    }
+                  
+                  
+                    .container1::before {
+                      left: 60px;
+                      border: medium solid white;
+                      border-width: 10px 10px 10px 0;
+                      border-color: transparent white transparent transparent;
+                    }
+                  
+                  
+                    .left::after, .right::after {
+                      left: 15px;
+                    }
+                  
+                  
+                    .right {
+                      left: 0%;
+                    }
+                  }
+                  
+                  .experience{background-color: #37715d; }
